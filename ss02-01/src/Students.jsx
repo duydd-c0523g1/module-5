@@ -1,8 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./student.css";
-
 const students = [
   {
     company: "Alfreds Futterkiste",
@@ -36,14 +31,22 @@ const students = [
   },
 ];
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
-    {students.map((student) => (
-      <tr>
-        <td>{student.company}</td>
-        <td>{student.contact}</td>
-        <td>{student.country}</td>
-      </tr>
-    ))}
-  </>
-);
+function Students() {
+  return (
+    <>
+      {students.map((student) => (
+        <div className="list">
+          <table>   
+            <tr>
+              <td>{student.company}</td>
+              <td>{student.contact}</td>
+              <td>{student.country}</td>
+            </tr>
+          </table>
+        </div>
+      ))}
+    </>
+  );
+}
+
+export default Students;
