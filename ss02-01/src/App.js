@@ -1,6 +1,6 @@
-import Students from "./Students";
-import Header from "./Header";
-import Footer from "./Footer";
+import Students from "./components/Students";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (

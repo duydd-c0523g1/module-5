@@ -38,9 +38,9 @@ function Students() {
         <div className="list">
           <table>   
             <tr>
-              <td>{student.company}</td>
-              <td>{student.contact}</td>
-              <td>{student.country}</td>
+              <td key = {0}>{student.company}</td>
+              <td key = {1}>{student.contact}</td>
+              <td key = {2}>{student.country}</td>
             </tr>
           </table>
         </div>
