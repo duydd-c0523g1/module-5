@@ -36,7 +36,7 @@ function Students() {
     <>
       {students.map((student) => (
         <div className="list">
-            <tr key={student.contact}>
+            <tr key={crypto.randomUUID}>
               <td>{student.company}</td>
               <td>{student.contact}</td>
               <td>{student.country}</td>
