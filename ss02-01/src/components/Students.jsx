@@ -36,13 +36,11 @@ function Students() {
     <>
       {students.map((student) => (
         <div className="list">
-          <table>   
-            <tr>
-              <td key = {0}>{student.company}</td>
-              <td key = {1}>{student.contact}</td>
-              <td key = {2}>{student.country}</td>
+            <tr key={student.contact}>
+              <td>{student.company}</td>
+              <td>{student.contact}</td>
+              <td>{student.country}</td>
             </tr>
-          </table>
         </div>
       ))}
     </>
