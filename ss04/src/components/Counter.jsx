@@ -7,6 +7,14 @@ function Counter() {
     setCount((number) => number + 1);
   }
 
+  function decrement() {
+    setCount((number => number - 1))
+  }
+
+  function reset() {
+    setCount(() => 0);
+  }
+
   return (
     <div>
       <h1>Đếm: {count}</h1>
@@ -15,6 +23,8 @@ function Counter() {
         increment();
         increment();
       }}>+2</button>
+      <button onClick={() => decrement()}>-1</button>
+      <button onClick={() => reset()}>Reset</button>
     </div>
   );
 }
