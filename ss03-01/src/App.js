@@ -31,7 +31,6 @@ return(
             </tbody>
         </table>
     </div>
-    
 );
 }
 export default App;
