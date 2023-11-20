@@ -18,7 +18,7 @@ function CovidForm() {
       .required("Không được bỏ trống")
       .matches(/^[1-2][0-9]{3}$/, "Không hợp lệ")
       .test("", "Năm sinh phải sau 1900", (dob) => {
-        return +dob > 1900;
+        return + dob > 1900;
       }),
     department: Yup.string().required("Không được bỏ trống"),
     country: Yup.string().required("Không được bỏ trống"),
@@ -39,7 +39,7 @@ function CovidForm() {
   return (
     <Formik
       initialValues={initValues}
-      onSubmit={() => handleSubmit()}
+      onSubmit={handleSubmit}
       validationSchema={validate}
     >
       <Form>
