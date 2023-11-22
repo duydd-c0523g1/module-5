@@ -58,15 +58,15 @@ export default function TodoList() {
           </tr>
         </thead>
         <tbody>
-        {list.map((e, index) => {
-          return (
-            <tr key={e.id}>
-              <td>{index + 1}</td>
-              <td>{e.completed ? "Completed" : "Incompleted"}</td>
-              <td>{e.title}</td>
-            </tr>
-          );
-        })}
+          {list.map((e, index) => {
+            return (
+              <tr key={e.id}>
+                <td>{index + 1}</td>
+                <td>{e.completed ? "Completed" : "Incompleted"}</td>
+                <td>{e.title}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>
