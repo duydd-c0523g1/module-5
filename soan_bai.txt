@@ -1,0 +1,13 @@
+1. Promise:
+Là một cơ chế trong JS giúp ta thực thi các tác vụ bất động bộ mà không rơi vào call back hell.
+Promise là một đối tượng trong JS nên chúng ta sử dụng từ khóa new để khai báo
+
+2. Async và Await khác gì với Promise?
+Bản chất của Async, Await là sử dụng Promise ở bên dưới, việc ta cần làm là sử dụng 2 từ khóa đó sao cho phù hợp
+Async sẽ được sử dụng trước hàm
+Await sẽ được sử dụng ở trước các thao tác cần đồng bộ
+=> Async function luôn có kết quả trả về là một Promise.
+
+Promise Async/Await không hoàn toàn thay thế nhau, mà còn hỗ trợ lẫn nhau
+Async/Await được sử dụng nhiều hơn Promise, nhưng Promise vẫn là nền tảng cần thiết khi thực thi các tác vụ
+bất đồng bộ trong JS.
