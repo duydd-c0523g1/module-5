@@ -12,9 +12,18 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div
+      class="container"
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+    <h1 style="text-align: center;">Thêm mới hợp đồng</h1><br>
       <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-12">
           <div class="form-floating mb-3">
             <input
               type="text"
@@ -24,7 +33,7 @@
             />
             <label for="service">Tên dịch vụ</label>
           </div>
-          <div class="form-floating">
+          <div class="form-floating mb-3">
             <input
               type="text"
               class="form-control"
@@ -42,12 +51,12 @@
             ></textarea>
             <label for="description">Mô tả</label>
           </div>
-          <div class="col-lg-3 mt-3">
+          <div class="col-lg-12 mt-3">
             <a
               class="btn btn-primary"
               href="#"
               role="button"
-              style="width: 100%"
+              style="width: 20%; text-align: center;"
               >Thêm dịch vụ</a
             >
           </div>
