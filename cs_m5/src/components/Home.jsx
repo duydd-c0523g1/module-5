@@ -12,13 +12,13 @@ function Layout() {
             position: "fixed",
             zIndex: 100,
             width: "100%",
-            marginTop: 180,
+            marginTop: 120,
           }}
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <img
-                height="150px"
+                height="100px"
                 src="https://furamavietnam.com/wp-content/uploads/2018/08/logo@2x.png"
                 alt=""
               />
@@ -44,7 +44,7 @@ function Layout() {
                     className="nav-link active"
                     aria-current="page"
                     href="#"
-                    style={{ marginLeft: 60 }}
+                    style={{ marginLeft: 90 }}
                   >
                     THE RESORT
                   </a>

@@ -1,0 +1,15 @@
+.navbar{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.405);
+    text-align: center;
+}
+footer {
+    border: 2px solid rgba(0, 0, 0, 0.241);
+  }
+  .title {
+    font-weight: 600;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
