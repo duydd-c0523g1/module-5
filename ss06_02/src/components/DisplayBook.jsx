@@ -34,7 +34,7 @@ export default function DisplayBook() {
                     <tbody>
                     {books.map((e, index) => {
                         return (
-                        <tr key={index}>
+                        <tr key={e.id}>
                             <td>{index + 1}</td>
                             <td>{e.title}</td>
                             <td>{e.quantity}</td>
