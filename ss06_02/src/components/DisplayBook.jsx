@@ -41,7 +41,7 @@ export default function DisplayBook() {
                 <td>
                   <button onClick={handleDelete}>Delete</button>
                   <button onClick={() => navigate("/edit/book/" + e.id)}>
-                    edit
+                    Edit
                   </button>
                 </td>
               </tr>
