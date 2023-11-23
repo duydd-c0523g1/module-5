@@ -46,7 +46,7 @@ export default function EditBook(){
                         <Field type="number" name="quantity"/><br/>
                         <ErrorMessage name="quantity" component="span"/>
                     </div>
-                    <button type="button" onClick={() => {navigation("/")}}>MainPage</button>
+                    <button type="button" onClick={() => {navigation("/")}}>Home</button>
                     <button type="submit">Submit</button>
                 </Form>
             </Formik>
